@@ -1,0 +1,9 @@
+ query GetMultipleCharacters{
+ character2: character(id: "3") {
+    id
+    name
+    status
+    species
+    gender
+  }
+ }
